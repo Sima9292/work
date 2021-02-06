@@ -4,6 +4,9 @@
 [data-tippy-root] {
 	max-width: calc(100vw - 10px);
 }
+[data-tippy-root] {
+	max-width: calc(100vw - 10px);
+}
 .tippy-box {
 	position: relative;
 	background-color: #333;
@@ -2948,7 +2951,7 @@ body .hero-bg-fade:after {
 }
 .contacts__left {
 	-ms-flex: 0 0 682px;
-	flex: 0 0 682px;
+	flex: 0 0 36.46%;
 	padding-left: 160px;
 	border: 1px solid #999;
 }
@@ -3054,9 +3057,14 @@ body .hero-bg-fade:after {
 	display: inline-block;
 	width: 40px;
 	height: 40px;
+	padding: 10px;
+	border-radius: 50%;
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: 50%;
+}
+.contacts-form__socials:hover{
+	box-shadow: 0 0 2px 1px #7943a4;
 }
 .contacts-form__socials:not(:last-child) {
 	margin-right: 16px;

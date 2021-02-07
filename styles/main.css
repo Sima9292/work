@@ -1267,11 +1267,13 @@ template {
 	src: local(""), url(../fonts/open-sans-v18-latin_cyrillic-700.woff2) format("woff2"), url(../fonts/open-sans-v18-latin_cyrillic-700.woff) format("woff");
 }
 * {
-	margin: 0;
-	padding: 0;
 	box-sizing: border-box;
 	text-decoration: none;
 	list-style-type: none;
+}
+.styles-reset{
+	margin: 0;
+	padding: 0;
 }
 img {
 	max-width: 100%;
@@ -3133,6 +3135,16 @@ body .hero-bg-fade:after {
 }
 .footer__socials_fb {
 	background-image: url(../img/socials-fb.svg);
+}
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	overflow: hidden;
+	border: 0;
+	clip: rect(0 0 0 0)
 }
 @media (max-width: 1400px) {
 	.header__logo {

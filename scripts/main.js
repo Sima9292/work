@@ -481,7 +481,7 @@
 			8966: (e, t, n) => {
 				var i = n(9755);
 				i(".hero__btn").on("click", function () {
-					i("html, body").animate({ scrollTop: i("#map").offset().top + 1e3 }, 1000);
+					i("html, body").animate({ scrollTop: i("#map").offset().top + 1e3 }, 2000);
 				});
 			},
 			2056: (e, t, n) => {

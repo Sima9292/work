@@ -1861,6 +1861,7 @@ body .hero-bg-fade:after {
 	line-height: 25px;
 	background-color: #9d5cd0;
 	border-radius: 70px;
+	transition: all .3s linear;
 }
 .about {
 	padding-top: 80px;
@@ -2952,8 +2953,7 @@ body .hero-bg-fade:after {
 	flex-direction: row;
 }
 .contacts__left {
-	-ms-flex: 0 0 682px;
-	flex: 0 0 36.46%;
+	flex: 0 0 calc(100% - 64%);
 	padding-left: 160px;
 	border: 1px solid #999;
 }
@@ -3064,9 +3064,12 @@ body .hero-bg-fade:after {
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: 50%;
+	box-shadow: 0 0 2px 1px #fff;
+	transition: all .5s linear;
 }
 .contacts-form__socials:hover{
 	box-shadow: 0 0 2px 1px #7943a4;
+	transition: all .5s linear;
 }
 .contacts-form__socials:not(:last-child) {
 	margin-right: 16px;
